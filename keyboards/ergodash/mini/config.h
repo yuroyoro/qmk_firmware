@@ -39,7 +39,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MATRIX_COL_PINS { B2, B3, B1, F7, F6, F5, F4 } //uncomment this line and comment line above if you need to reverse left-to-right key order
 
 /* define tapping term */
-#define TAPPING_TERM 120
+#define TAPPING_FORCE_HOLD
+#define TAPPING_TERM 400
+#define PERMISSIVE_HOLD
+#define RETRO_TAPPING
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
